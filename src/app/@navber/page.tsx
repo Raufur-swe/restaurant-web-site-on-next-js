@@ -24,8 +24,8 @@ const Page = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center p-4 bg-bacground">
-      <nav className="flex items-center justify-between w-[95%] max-w-7xl px-6 py-3 rounded-3xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-xl">
+    <div className="flex justify-center items-center bg-bacground">
+      <nav className="flex items-center justify-between gap-20 px-6 py-3 rounded-3xl border border-white/20 bg-[#F4C9AD] l shadow-xl">
 
         {/* Logo */}
         <div>
