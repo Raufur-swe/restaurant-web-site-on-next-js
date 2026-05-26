@@ -3,7 +3,13 @@
 :root {
   --background: #FFDBC3;
   --color-background: var(--background);
+  
 }
+
+@theme{
+  --color-secondary : #F4C9AD
+}
+
 body {
   margin: 0;
   min-height: 100vh;

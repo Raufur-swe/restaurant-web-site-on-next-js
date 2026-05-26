@@ -24,8 +24,8 @@ const Page = () => {
   ];
 
   return (
-    <div className="flex justify-center items-center bg-bacground">
-      <nav className="flex items-center justify-between gap-20 px-6 py-3 rounded-3xl border border-white/20 bg-[#F4C9AD] l shadow-xl">
+    <div className="flex justify-center items-center">
+      <nav className="flex items-center justify-between gap-20 px-6 py-3 rounded-3xl border border-white/20 bg-secondary l shadow-xl">
 
         {/* Logo */}
         <div>
@@ -46,7 +46,7 @@ const Page = () => {
             >
               <span className="relative">
                 {item}
-                <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#FE8433] transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-[#FE8433] transition-all duration-300 group-hover:w-full"></span>
               </span>
 
               <IoIosArrowDown
